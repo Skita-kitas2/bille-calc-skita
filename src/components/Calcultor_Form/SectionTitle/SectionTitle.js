@@ -3,7 +3,7 @@ import React from 'react';
 function SectionTitle(props) {
     const style={
         display: 'block',
-        fontSize: '1.2rem',
+        fontSize: '1.1rem',
         fontWeight: '500',
         padding: '1rem 0'
     }

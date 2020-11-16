@@ -15,8 +15,10 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
+    font-size: 0.7rem;
   }
 
   .tooltip .tooltipVisible{
     visibility: visible;
+    
   }

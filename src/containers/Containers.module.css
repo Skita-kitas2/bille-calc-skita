@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;   
-    margin-bottom: 2rem;    
+    margin-bottom: 1.5rem;    
 }
 
 .ColumnContainer{
@@ -24,7 +24,7 @@
     justify-content: space-between;       
 }
 
-.RowContainer h1{
+.RowContainer h2{
     border-top: solid;
     border-color: #0097cf;
 }
@@ -44,7 +44,8 @@
 
   .SummarySectionTitle{
     color: #0097cf;
-    border-bottom: 3px solid #0097cf;
+    border-bottom: 2px solid #0097cf;
+    font-size: 1.4rem;
   }
   .RatesSum{
     color: #0097cf;

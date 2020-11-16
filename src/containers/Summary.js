@@ -38,7 +38,7 @@ class Summary extends Component {
                             <p>KITA Insurance Inc</p>
                             <p>ul. Krakowskie Przedmieście 10, 20-800 Lublin</p>
                         </div>
-                        <h1>Kalkulacja Raty Ubezpieczenia</h1>
+                        <h2>Kalkulacja Raty Ubezpieczenia</h2>
                     </div>
                         <div className={classes.RowContainer}>
                             <OutputField label="Numer polisy" val={this.props.polNo} />

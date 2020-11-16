@@ -9,12 +9,12 @@
 .RateDetailsContainer p{
     width: 50%;
     text-align: center;
-    font-size: 1.5rem;
-    margin: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.2rem;
 }
 
 .RateDetailsContainer label{
     width: 50%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }

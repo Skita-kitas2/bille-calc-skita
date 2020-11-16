@@ -1,6 +1,6 @@
 button{
     width: 30%;
-    height: 3.5rem;
+    height: 3rem;
     text-align: center;
     margin: 0;
     background: linear-gradient(90deg, #1f8a70 30%, #bbd93a );
@@ -9,7 +9,7 @@ button{
     box-shadow: 0px 6px 4px 1px #e0c2bd;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 

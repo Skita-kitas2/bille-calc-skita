@@ -4,7 +4,7 @@ function InfoText(props) {
 const style={
     margin: 'auto 0',
     color: '#889ca2',
-    width: '25%',
+    width: '30%',
     textAlign: 'center',
 }
 
