@@ -1,0 +1,20 @@
+.RateDetailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0097cf;
+    margin: 0.5rem;
+}
+
+.RateDetailsContainer p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.RateDetailsContainer label{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}

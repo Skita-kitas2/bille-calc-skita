@@ -1,0 +1,21 @@
+button{
+    width: 30%;
+    height: 3.5rem;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(90deg, #1f8a70 30%, #bbd93a );
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 0px 6px 4px 1px #e0c2bd;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.buttonDisabled{
+    background: grey;
+    color: white;
+    cursor: not-allowed;
+    box-shadow: none;
+}

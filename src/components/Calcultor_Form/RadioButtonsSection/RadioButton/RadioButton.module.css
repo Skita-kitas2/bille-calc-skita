@@ -1,0 +1,29 @@
+.Button{
+    width: 25%;
+    height: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #daeaef;
+    display: flex;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
+
+.Button label{
+    margin: auto;
+    font-size: 1.2rem;
+    color: #889ca2;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.Active{
+    background:#ff3d2e;
+    box-shadow: 0px 6px 4px 0px lightgrey
+}
+
+.Active label{
+    color: white;
+    font-weight: 500;
+}

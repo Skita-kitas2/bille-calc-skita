@@ -1,0 +1,56 @@
+.CalcContainer{
+    background: white;
+    padding: 2rem 2rem 0rem 2rem ;
+    border-radius: 0 0.5rem 0 0;
+}
+
+.SummaryContainer{
+    background: white;
+    padding: 0rem 2rem 2rem 2rem ;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    color:#575c63 
+}
+
+.RowContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    margin-bottom: 2rem;    
+}
+
+.ColumnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;       
+}
+
+.RowContainer h1{
+    border-top: solid;
+    border-color: #0097cf;
+}
+
+.c1{
+    font-size: 1.1rem;
+}
+
+.c1 p{
+    margin: 0
+}
+
+.c1 > p:nth-child(2) {
+    font-weight: 700;
+    color: #0097cf;
+  }
+
+  .SummarySectionTitle{
+    color: #0097cf;
+    border-bottom: 3px solid #0097cf;
+  }
+  .RatesSum{
+    color: #0097cf;
+    border-bottom: 3px solid #0097cf;
+    text-align: end;
+    margin-left: 50%;
+    margin-top: 2rem;
+    padding: 0 1rem 0 0;
+  }

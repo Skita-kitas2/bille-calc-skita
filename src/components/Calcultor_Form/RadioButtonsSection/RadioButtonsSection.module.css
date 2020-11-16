@@ -1,0 +1,12 @@
+.RBsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0px 2rem;
+    border: 1px solid transparent;
+}
+
+.border{
+    border-color: #ff3d2e;
+    border-radius: 1rem;
+}
+
