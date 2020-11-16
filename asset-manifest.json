@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bille-calc-skita/static/css/main.a24865cb.chunk.css",
+    "main.js": "/bille-calc-skita/static/js/main.95a3fd63.chunk.js",
+    "main.js.map": "/bille-calc-skita/static/js/main.95a3fd63.chunk.js.map",
+    "runtime-main.js": "/bille-calc-skita/static/js/runtime-main.88ba8966.js",
+    "runtime-main.js.map": "/bille-calc-skita/static/js/runtime-main.88ba8966.js.map",
+    "static/js/2.b37d2f18.chunk.js": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js",
+    "static/js/2.b37d2f18.chunk.js.map": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js.map",
+    "static/js/3.8cdc103e.chunk.js": "/bille-calc-skita/static/js/3.8cdc103e.chunk.js",
+    "static/js/3.8cdc103e.chunk.js.map": "/bille-calc-skita/static/js/3.8cdc103e.chunk.js.map",
+    "index.html": "/bille-calc-skita/index.html",
+    "static/css/main.a24865cb.chunk.css.map": "/bille-calc-skita/static/css/main.a24865cb.chunk.css.map",
+    "static/js/2.b37d2f18.chunk.js.LICENSE.txt": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bille-calc-skita/static/media/app-background.36e12c60.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88ba8966.js",
+    "static/js/2.b37d2f18.chunk.js",
+    "static/css/main.a24865cb.chunk.css",
+    "static/js/main.95a3fd63.chunk.js"
+  ]
+}
