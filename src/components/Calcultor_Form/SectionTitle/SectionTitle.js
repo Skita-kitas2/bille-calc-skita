@@ -9,9 +9,7 @@ function SectionTitle(props) {
     }
 
     return (
-        <div>
             <title style={style}>{props.value}</title>
-        </div>
     );
 }
 

@@ -19,3 +19,10 @@ button{
     cursor: not-allowed;
     box-shadow: none;
 }
+
+@media only screen and (max-width: 600px) {
+    button{
+        width: 60%;
+        margin: 1rem 0;
+    }
+  }

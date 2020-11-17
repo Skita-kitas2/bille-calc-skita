@@ -3,12 +3,6 @@ import classes from './OutputField.module.css'
 
 function OutputField(props) {
 
-const style={
-    width:props.wdth,
-    margin: '1rem'
-}
-
-
     return (
         <div className={`${classes.outputContainer} ${props.narrow?classes.w25:""}`}>
             <p className={classes.val}>{props.val}</p>

@@ -13,7 +13,8 @@ class Summary extends Component {
     componentDidMount(){
         if(this.props.selectedRate===""){
             this.props.history.push('/')
-        }       
+        }    
+        window.scrollTo(0, 0);   
     }
     
     render() {        
@@ -49,8 +50,10 @@ class Summary extends Component {
                         <OutputField label="Suma ubezpieczenia" val={`${this.props.insAmount} ${AppConfiguration.currency}`} />
                         <OutputField label="Szkody" val={this.props.damages===''?"brak przeszłości":this.props.damages} />
                         </div>
-                    <h2 className={classes.SummarySectionTitle}>Raty</h2>  
+                    <h2 className={classes.SummarySectionTitle}>Raty</h2> 
+                    <div className={classes.RowContainer}>
                         <OutputField label="Ilość rat" val={numOfRates} />  
+                        </div> 
                         {Rates}
                     <h2 className={classes.RatesSum}>SUMA: {RatesSum} {AppConfiguration.currency}</h2> 
                 </div>

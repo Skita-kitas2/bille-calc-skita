@@ -46,3 +46,29 @@
     background: gray;
     color: lightgray;
   }
+
+  @media only screen and (max-width: 600px) {
+    .menu {
+      padding: 0;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    .NavigationItem {
+      border-radius: 6px;
+      width: 50%;
+      clip-path: none;
+      shape-outside: none;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ul > a:nth-child(2) {
+      transform: none;
+    }
+  }

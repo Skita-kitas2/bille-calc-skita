@@ -45,6 +45,7 @@ const reducer = ( state = initialState, action ) => {
             let baseRate=0
             let rateFactor=1
             let damageFactor=1
+            if(state.SelectedRate!==''){
             for(let range of AppConfiguration.rateRanges){
                 if(state.InsuranceAmount>=range.min&&state.InsuranceAmount<=range.max)
                 {baseRate=range.value
@@ -66,7 +67,7 @@ const reducer = ( state = initialState, action ) => {
                 ...state,
                 CalculatedValue:calculatedRate.toFixed(0),
                 summaryDisabled: false
-            }
+            }}
     }
 
 

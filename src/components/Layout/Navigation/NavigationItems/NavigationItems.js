@@ -18,6 +18,7 @@ const NavigationItems=(props)=> {
             </NavLink>
 
             <NavLink 
+            onClick={props.clicked}
             to="/bille-calc-skita/podsumowanie" 
             className={`${classes.NavigationItem} ${props.summaryDisabled? classes.Disabled:""}`} 
             activeClassName={classes.Active} 

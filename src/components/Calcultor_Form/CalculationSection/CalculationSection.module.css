@@ -1,0 +1,18 @@
+.CalcSection{
+    background: rgb(232, 243, 247);
+    padding: 1rem;
+    border: 3px solid transparent;
+    border-radius: 0px 0px 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RedBorder{
+    border-color: #ff3d2e;
+}
+@media only screen and (max-width: 600px) {
+    .CalcSection{
+        flex-direction: column-reverse;
+    }
+  }

@@ -1,15 +1,9 @@
 import React from 'react';
+import classes from './InfoText.module.css'
 
 function InfoText(props) {
-const style={
-    margin: 'auto 0',
-    color: '#889ca2',
-    width: '30%',
-    textAlign: 'center',
-}
-
     return (
-        <label style={style}>{props.text}</label>
+        <label className={classes.InfoText}>{props.text}</label>
     );
 }
 
