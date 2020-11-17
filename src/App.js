@@ -11,8 +11,8 @@ function App() {
     <div className='container'>
         <Layout >
           <Route path="/bille-calc-skita" exact component={Calculator}/>
-          <Route render={() => <Redirect to={{pathname: "/bille-calc-skita"}} />} />
           <Route path="/bille-calc-skita/podsumowanie" component={Summary}/>
+          <Route render={() => <Redirect to={{pathname: "/bille-calc-skita"}} />} />
         </Layout>
     </div>
     </BrowserRouter>
