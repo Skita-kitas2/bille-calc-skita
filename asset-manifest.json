@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bille-calc-skita/static/css/main.c3e51f5f.chunk.css",
-    "main.js": "/bille-calc-skita/static/js/main.4ead2638.chunk.js",
-    "main.js.map": "/bille-calc-skita/static/js/main.4ead2638.chunk.js.map",
-    "runtime-main.js": "/bille-calc-skita/static/js/runtime-main.88ba8966.js",
-    "runtime-main.js.map": "/bille-calc-skita/static/js/runtime-main.88ba8966.js.map",
-    "static/js/2.b37d2f18.chunk.js": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js",
-    "static/js/2.b37d2f18.chunk.js.map": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js.map",
-    "static/js/3.8cdc103e.chunk.js": "/bille-calc-skita/static/js/3.8cdc103e.chunk.js",
-    "static/js/3.8cdc103e.chunk.js.map": "/bille-calc-skita/static/js/3.8cdc103e.chunk.js.map",
+    "main.css": "/bille-calc-skita/static/css/main.d3382b26.chunk.css",
+    "main.js": "/bille-calc-skita/static/js/main.a9bb25b9.chunk.js",
+    "main.js.map": "/bille-calc-skita/static/js/main.a9bb25b9.chunk.js.map",
+    "runtime-main.js": "/bille-calc-skita/static/js/runtime-main.3a34aa6b.js",
+    "runtime-main.js.map": "/bille-calc-skita/static/js/runtime-main.3a34aa6b.js.map",
+    "static/js/2.a6154aa0.chunk.js": "/bille-calc-skita/static/js/2.a6154aa0.chunk.js",
+    "static/js/2.a6154aa0.chunk.js.map": "/bille-calc-skita/static/js/2.a6154aa0.chunk.js.map",
+    "static/js/3.441adcd3.chunk.js": "/bille-calc-skita/static/js/3.441adcd3.chunk.js",
+    "static/js/3.441adcd3.chunk.js.map": "/bille-calc-skita/static/js/3.441adcd3.chunk.js.map",
     "index.html": "/bille-calc-skita/index.html",
-    "static/css/main.c3e51f5f.chunk.css.map": "/bille-calc-skita/static/css/main.c3e51f5f.chunk.css.map",
-    "static/js/2.b37d2f18.chunk.js.LICENSE.txt": "/bille-calc-skita/static/js/2.b37d2f18.chunk.js.LICENSE.txt",
+    "static/css/main.d3382b26.chunk.css.map": "/bille-calc-skita/static/css/main.d3382b26.chunk.css.map",
+    "static/js/2.a6154aa0.chunk.js.LICENSE.txt": "/bille-calc-skita/static/js/2.a6154aa0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bille-calc-skita/static/media/app-background.36e12c60.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.88ba8966.js",
-    "static/js/2.b37d2f18.chunk.js",
-    "static/css/main.c3e51f5f.chunk.css",
-    "static/js/main.4ead2638.chunk.js"
+    "static/js/runtime-main.3a34aa6b.js",
+    "static/js/2.a6154aa0.chunk.js",
+    "static/css/main.d3382b26.chunk.css",
+    "static/js/main.a9bb25b9.chunk.js"
   ]
 }
