@@ -25,7 +25,7 @@ class Summary extends Component {
                 break;}}
 
         let Rates=[]
-        const RatesSum=(this.props.finalValue*numOfRates).toFixed(0)
+        const RatesSum=(Math.ceil(this.props.finalValue*numOfRates)).toFixed(0)
         for(let i=1; i<=numOfRates;i++){
             Rates.push(<RateDetails key={i} iterator={i} rateValue={`${this.props.finalValue} ${AppConfiguration.currency}`}/>)
         }

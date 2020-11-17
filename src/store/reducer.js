@@ -60,7 +60,7 @@ const reducer = ( state = initialState, action ) => {
                 {damageFactor=damage.factor
                     break;}}
 
-                    const calculatedRate=baseRate*rateFactor*damageFactor
+                    const calculatedRate=Math.ceil(baseRate*rateFactor*damageFactor)
     
             return{
                 ...state,
