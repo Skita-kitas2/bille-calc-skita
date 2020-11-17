@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
     <div className='container'>
         <Layout >
-          <Route path="/" exact component={Calculator}/>
-          <Route render={() => <Redirect to={{pathname: "/"}} />} />
-          <Route path="/podsumowanie" component={Summary}/>
+          <Route path="/bille-calc-skita" exact component={Calculator}/>
+          <Route render={() => <Redirect to={{pathname: "/bille-calc-skita"}} />} />
+          <Route path="/bille-calc-skita/podsumowanie" component={Summary}/>
         </Layout>
     </div>
     </BrowserRouter>

@@ -9,7 +9,7 @@ const NavigationItems=(props)=> {
     return (
         <ul className={classes.menu}>
             <NavLink 
-            to="/" 
+            to="/bille-calc-skita" 
             style={{textDecoration:'none'}} 
             exact 
             className={classes.NavigationItem} 
@@ -18,7 +18,7 @@ const NavigationItems=(props)=> {
             </NavLink>
 
             <NavLink 
-            to="/podsumowanie" 
+            to="/bille-calc-skita/podsumowanie" 
             className={`${classes.NavigationItem} ${props.summaryDisabled? classes.Disabled:""}`} 
             activeClassName={classes.Active} 
             onMouseEnter={()=>{props.summaryHoverOn(true)}} 
